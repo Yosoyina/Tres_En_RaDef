@@ -240,6 +240,17 @@ public class Tres_en_raya {
                 System.out.println("|     "+TurnoJug + " ha ganado el juego!    |");
                 System.out.println("|___________________________________________|");
                 
+             // Apartado para incrementar la victoria de las rondas de los dos jugadores
+                if (TurnoJug.equals(Jugador1)) {
+                	
+                    contJ1++; // Se le incremet a al jugador 1 una ronda ganada
+                    
+                } else {
+                	
+                    contJ2++; // Se le incremet a al jugador 2 una ronda ganada
+                    
+                }
+                
                 break;
             }
 			
