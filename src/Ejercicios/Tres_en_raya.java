@@ -288,6 +288,32 @@ public class Tres_en_raya {
             }
             
             
+            System.out.println(" ________________________________________________");
+			System.out.println("|                                                |");
+            System.out.println("|     Quieres repetir la revancha ???   (s/n)    |");
+            System.out.println("|________________________________________________|");
+            
+            String revancha = teclado.next();
+            
+            if (!revancha.equalsIgnoreCase("s")) {
+            	
+            	System.out.println(" __________________________________________________________");
+    			System.out.println("                                                           ");
+                System.out.println("                    Saliendo del Juego...                  ");
+                System.out.println(" __________________________________________________________");
+                System.out.println("                                                           ");
+                System.out.println("                    Resultado Finales                      ");
+                System.out.println(" __________________________________________________________");
+                System.out.println("                                                           ");
+                System.out.println("  " + Jugador1 + "  ha ganado estas rondas  "+ contJ1 +"   ");
+                System.out.println(" __________________________________________________________");
+                System.out.println("                                                           ");
+                System.out.println("  " + Jugador2 + "  ha ganado estas rondas  "+ contJ2 +"   ");
+                System.out.println(" __________________________________________________________");
+                
+                
+                break; // Sale del bucle i se rompe la condicion
+            }
             
             
             
