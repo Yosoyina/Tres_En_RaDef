@@ -293,9 +293,11 @@ public class Tres_en_raya {
             System.out.println("|     Quieres repetir la revancha ???   (s/n)    |");
             System.out.println("|________________________________________________|");
             
-            String revancha = teclado.next();
+            String revancha = teclado.next(); // introducce el usuario si quiere seguir la ronda
             
-            if (!revancha.equalsIgnoreCase("s")) {
+            if (!revancha.equalsIgnoreCase("s")) { 
+            	
+            	// en esta condicion ignora el caso que es la s por si pone la n i nos saldra el mensaje saliendo de los juegos i con los resultados de cada jugador
             	
             	System.out.println(" __________________________________________________________");
     			System.out.println("                                                           ");
@@ -313,13 +315,7 @@ public class Tres_en_raya {
                 
                 
                 break; // Sale del bucle i se rompe la condicion
-            }
-            
-            
-            
-            
-		} // acaba el bucle while
-		
+            }  
+		} // acaba el bucle while de las rondas
 	}
-
 }
