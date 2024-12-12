@@ -65,7 +65,7 @@ public class Tres_en_raya {
 			
 			System.out.println(" ____________________________________");
 			System.out.println("|                                    |");
-			System.out.println("|    Ha salido Cara " + Jugador1 +  "|");
+			System.out.println("|    Ha salido Cara   " + Jugador1 +"|");
 			System.out.println("|____________________________________|");
 			
 		}
@@ -78,7 +78,7 @@ public class Tres_en_raya {
 			
 			System.out.println(" ____________________________________");
 			System.out.println("|                                    |");
-			System.out.println("|    Ha salido Cruz " + Jugador2 +"  |");
+			System.out.println("|    Ha salido Cruz  " + Jugador2 +" |");
 			System.out.println("|____________________________________|");
 			
 		}
@@ -114,7 +114,7 @@ public class Tres_en_raya {
 			
 			System.out.println(" ______________________________________________________");
 			System.out.println("|                                                      |");
-			System.out.println("|         " +TurnoJug + "este jugador comienza         |");
+			System.out.println("|         " +TurnoJug + "   este jugador comienza      |");
 			System.out.println("|______________________________________________________|");
 			
 			boolean ficha = false;
@@ -286,6 +286,10 @@ public class Tres_en_raya {
                 TurnoJug = Jugador1;
                 
             }
+            
+            
+            
+            
             
             
 		} // acaba el bucle while
